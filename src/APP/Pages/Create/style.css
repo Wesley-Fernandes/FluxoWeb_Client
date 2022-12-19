@@ -1,0 +1,22 @@
+.CreatePage{
+    height: calc(100vh - 80px);
+
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.Form--Create{
+    margin: 0.5rem;
+    width: 800px;
+    padding: 0.5rem;
+    outline: 1px solid rgba(0, 0, 0, 0.331);
+    border-radius: 10px;
+    text-align: center;
+}
+.Form--Create h1{
+    text-transform: uppercase;
+}

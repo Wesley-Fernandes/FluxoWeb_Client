@@ -1,0 +1,12 @@
+.user-icon{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.user-icon img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+    border: 3px solid black;
+}

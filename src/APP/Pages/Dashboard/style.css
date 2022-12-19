@@ -1,0 +1,11 @@
+.DashboardPage{
+    height: calc(100vh - 80px);
+}
+.DashboardPage main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    justify-content: flex-start;
+
+}

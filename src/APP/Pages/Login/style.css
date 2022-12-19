@@ -1,0 +1,42 @@
+.LoginPage{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.Right{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #272727;
+    padding: 0.1rem;
+}
+.Left{
+    width: 100%;
+    background: url('https://i.ibb.co/SKMFpQq/pexels-marta-branco-1194713.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+}
+.LoginHub{
+    width: 600px;
+    padding: 0.8rem;
+    outline: 1px solid rgba(40, 40, 40, 0.183);
+    border-radius: 10px;
+    background-color: white;
+}
+.fluxo-logo{
+    background-clip: text;
+    background: linear-gradient(#154cfe, #113bc4e7, rgb(1, 1, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    text-transform: uppercase;
+}

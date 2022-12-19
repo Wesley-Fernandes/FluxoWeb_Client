@@ -1,0 +1,74 @@
+.Item{
+    width: 98%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+
+}
+.block{
+    text-align: center;
+    min-width: 100px;
+}
+
+.fullblock{
+    width: 100%;
+}
+
+.Item--header{
+    background-color: rgb(87, 87, 87);
+    display: flex;
+    color: white;
+}
+.Item--header .title{
+    font-size: 1.3rem;
+}
+.Item--header .block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(130, 130, 130);
+    margin: 0.2rem;
+    color: white;
+    border-radius: 10px;
+    padding: 0.2rem 0.2rem;
+}
+.Item--header .fullblock{
+    margin: 0.2rem;
+    padding: 0.2rem 0.2rem;
+}
+
+.Item--body{
+    display: flex;
+    min-height: 100px;
+    margin: 0;
+}
+.Item--body p{
+    background-color: #272727;
+    width: 100%;
+    height: 120px;
+    color: white;
+    padding: 0.2rem;
+    margin: 0;
+}
+
+
+.Item--footer{
+    display: flex;
+    margin-top: 0;
+    padding: 0.2rem;
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+.Item--footer .block{
+    background-color: rgb(130, 130, 130);
+    padding: 0.2rem 0.2rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+}
+
+
+main:has(.Item:hover) .Item:not(:hover){
+    transition: 0.5s;
+    opacity: 0.4;
+}
